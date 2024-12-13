@@ -38,16 +38,15 @@ MySQL/MariaDB is used to store the data. The basic database structure is as foll
 | `imagen`         | `VARCHAR(255)` | URL of the uploaded image.                |
 | `nombre_ imagen` | `VARCHAR(255)` | URL of the uploaded image.                |
 
-
-struct Posts: Codable {
     
-    let id : String
-    let titulo : String
-    let contenido : String
-    let imagen : String
-    let nombre_imagen : String
+    struct Posts: Codable {
+        let id : String
+        let titulo : String
+        let contenido : String
+        let imagen : String
+        let nombre_imagen : String 
+    }
 
-}
 
 ## Figma Prototype
 

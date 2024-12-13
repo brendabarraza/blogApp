@@ -30,13 +30,22 @@ MySQL/MariaDB is used to store the data. The basic database structure is as foll
 
 ### `blog_entries` Table
 
-| Column       | Type           | Description                               |
-|--------------|----------------|-------------------------------------------|
-| `id`         | `INT`          | Unique identifier for the entry.         |
-| `title`      | `VARCHAR(255)`  | Title of the blog entry.                 |
-| `description`| `TEXT`         | Description of the blog entry.           |
-| `image_url`  | `VARCHAR(255)`  | URL of the uploaded image.               |
-| `created_at` | `DATETIME`     | Timestamp of the entry creation.         |
+| Column           | Type           | Description                               |
+|------------------|----------------|-------------------------------------------|
+| `id`             | `INT`          | Unique identifier for the entry.          |
+| `title`          | `VARCHAR(255)` | Title of the blog entry.                  |
+| `contenido`      | `TEXT`         | Description of the blog entry.            |
+| `imagen`         | `VARCHAR(255)` | URL of the uploaded image.                |
+| `nombre_ imagen` | `VARCHAR(255)` | URL of the uploaded image.                |
+
+
+struct Posts: Codable {
+    let id : String
+    let titulo : String
+    let contenido : String
+    let imagen : String
+    let nombre_imagen : String
+}
 
 ## Installation
 

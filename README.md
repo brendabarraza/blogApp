@@ -1,0 +1,46 @@
+# Mobile Blog App
+
+This is a mobile blog app that allows users to upload photos with descriptions, view full posts on a home screen, and organize them alphabetically for quick access. The app is built using `SwiftUI` for the frontend, `PHP` and `MySQL/MariaDB` for the backend, and uses the `Alamofire` package for network requests.
+
+## Technologies Used
+
+### Frontend (iOS)
+- **SwiftUI**: Framework for building user interfaces in iOS apps.
+- **Alamofire**: Library for making HTTP requests and handling communication between the app and the server.
+- **PhotosUI**: Framework used for selecting photos from the user's device.
+
+### Backend (Server)
+- **PHP**: Programming language used for handling the server logic, including CRUD operations (Create, Read, Update, Delete) for the blog.
+- **MySQL/MariaDB**: Database management system used to store blog entries, including photos and descriptions.
+- **XAMPP**: Package including Apache, MySQL, and PHP to serve as a local development server.
+
+### Architecture
+- **MVC**: The Model-View-Controller pattern is followed to organize the code and logic both in the client (SwiftUI) and server (PHP).
+- **CRUD**: The app implements full CRUD operations for the blog entries (photo + description).
+
+## Requirements
+
+- **Xcode 14.1 or higher** to build and run the iOS app.
+- **XAMPP** or a similar server with Apache, MySQL/MariaDB, and PHP to run the backend locally.
+- **Alamofire** (dependency in the iOS project).
+
+## Database Structure
+
+MySQL/MariaDB is used to store the data. The basic database structure is as follows:
+
+### `blog_entries` Table
+
+| Column       | Type           | Description                               |
+|--------------|----------------|-------------------------------------------|
+| `id`         | `INT`          | Unique identifier for the entry.         |
+| `title`      | `VARCHAR(255)`  | Title of the blog entry.                 |
+| `description`| `TEXT`         | Description of the blog entry.           |
+| `image_url`  | `VARCHAR(255)`  | URL of the uploaded image.               |
+| `created_at` | `DATETIME`     | Timestamp of the entry creation.         |
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository-url>

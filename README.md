@@ -58,6 +58,11 @@ MySQL/MariaDB is used to store the data. The basic database structure is as foll
 
 ---
 
+<img src="assets/screen1.png" alt="Otra pantalla" width="400">
+<img src="assets/screen2.png" alt="Otra pantalla" width="400">
+<img src="assets/screen3.png" alt="Otra pantalla" width="400">
+
+
 ## Figma Prototype
 
 You can view the Figma prototype of the app [here](https://www.figma.com/proto/aCtVNm5U7a7kZBKAJvdYQa/Untitled?node-id=44-71&node-type=canvas&t=kkwnLwrwcQejlHRc-1&scaling=scale-down&content-scaling=fixed&page-id=33%3A42&starting-point-node-id=44%3A71).

@@ -58,9 +58,9 @@ MySQL/MariaDB is used to store the data. The basic database structure is as foll
 
 ---
 
-<img src="assets/screen1.png" alt="Otra pantalla" width="400">
-<img src="assets/screen2.png" alt="Otra pantalla" width="400">
-<img src="assets/screen3.png" alt="Otra pantalla" width="400">
+<img src="blog/captures/Frame 1.png" alt="Otra pantalla" width="700">
+<img src="blog/captures/Frame 2.png" alt="Otra pantalla" width="700">
+<img src="blog/captures/Frame 3.png" alt="Otra pantalla" width="700">
 
 
 ## Figma Prototype
